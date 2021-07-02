@@ -6,17 +6,16 @@ This is a python package hosted on PYPI and can be used to perform basic functio
 - DIVISION
 - MULTIPLICATION
 
-It has the MIT License and is deploy on PyPI using Git.
+It is an open source project with a public repository at https://github.com/linda-oranya/pypi_calculator.
+
+
 
 ### Installation
 
-
-The package can be installed via PYPI
+pypi_calculator requires python3 and can be installed via PYPI
 
 $ pip install pypi_calculator
-Installation via Github this is for the stable released version
 
-$ pip install git+https://github.com/linda-oranya/CALCULATOR
 
 
 ### Usage
@@ -50,4 +49,18 @@ None
 >>> cal.memory_val
 4
 
+### Development
+You can contribute to this project by cloning this repo and pushing to a branch for review and merging.
 
+### Docker
+pypi_calculator is very easy to install and deploy in a Docker container.
+
+By default, the Docker will expose port 8080, so change this within the
+Dockerfile if necessary. When ready, simply use the Dockerfile to
+build the image.
+
+## License
+
+MIT
+
+**It is a Free Software**

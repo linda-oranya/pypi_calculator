@@ -9,7 +9,6 @@ calc = Calculator()
 
 def test_add():
     assert calc.add(10) == 10
-    assert Calculator().add(12.0) == 12.0
 
 
 def test_subtract():
