@@ -16,6 +16,7 @@ pypi_calculator requires python3 and can be installed via PYPI
 
 $ pip install pypi_calculator
 
+OR pip install git+https://github.com/linda-oranya/pypi_calculator
 
 
 ### Usage
@@ -27,26 +28,27 @@ from calculator import Calculator
 
 cal = Calculator()
 #### Addition
->>> cal.add(10)
+``cal.add(10)``
 10
 
 #### Subtraction
 subtract
 
->>> cal.subtract(2)
+``cal.subtract(2)``
 8
 because the memory was not reset, 2 was subtracted from previous value 10
 
 Division
 For divide, zero division returns None and description
 
->>> cal.divide(2)
+``cal.divide(2)``
 4
->>> cal.divide(0)
+
+``cal.divide(0)``
 number cannot be zero => float division by zero
 None
 
->>> cal.memory_val
+``cal.memory_val``
 4
 
 ### Development
