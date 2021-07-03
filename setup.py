@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ecalculator-pkg-linda-oranya",
-    version="0.0.1",
+    version="0.0.2",
     author="Linda Oranya",
     author_email="oranyalinda7@gmail.com",
     description="A calculator written in python",
