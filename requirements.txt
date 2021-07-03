@@ -1,1 +1,9 @@
-pytest == 6.1.1
+attrs==21.2.0
+-e git+https://github.com/linda-oranya/pypi_calculator.git@6a0c32dec3aa07bef877c13280c655749e0dd45f#egg=ecalculator_pkg_linda_oranya
+iniconfig==1.1.1
+packaging==20.9
+pluggy==0.13.1
+py==1.10.0
+pyparsing==2.4.7
+pytest==6.1.1
+toml==0.10.2

@@ -13,17 +13,17 @@ def test_add():
 
 
 def test_subtract():
-    calc = Calculator()
+    calc = Calculator(10)
     assert calc.subtract(2) == 8
 
 
 def test_divide():
-    calc = Calculator()
+    calc = Calculator(8)
     assert calc.divide(2) == 4
 
 
 def test_memory_val():
-    calc = Calculator()
+    calc = Calculator(4)
     assert calc.memory_val == 4
 
 
