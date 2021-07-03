@@ -9,8 +9,10 @@ class Calculator:
         - Take (n) root of number
         - Reset memory
     """
-    def __init__(self) -> None:
-        self.__index = 0
+
+    def __init__(self, start:int = 0)-> None:
+        self.__index = start
+ 
 
     @property
     def memory_val(self):
@@ -21,7 +23,7 @@ class Calculator:
 
     @staticmethod
     def __input_validation(number: Union[int, float]):
-        if not isinstance (number, int) and not isinstance(number, float):
+        if not isinstance (number, (int, float)):
             raise TypeError("only numerical inputs allowed (float or integer)")
 
     def reset(self):
@@ -65,10 +67,9 @@ class Calculator:
     def square_root(self, num: Union[int, float]):
         self.__input_validation(num)
         if self.__index <= 0:
-            raise ValueError(f"memory value must be greater than zero")
+            raise ValueError(f"The calculator does not have the capacity to compute negative roots")
         if num <= 0:
-            raise ValueError("root must be greater than 0")
+            raise ValueError("The calculator does not have the capacity to compute negative roots")
 
         self.__index = self.__index**(1./num)
         return self.__index
-

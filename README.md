@@ -11,13 +11,13 @@ It is an open source project with a public repository at https://github.com/lind
 
 
 ### Installation
-
+``` shell
 pypi_calculator requires python3 and can be installed via PYPI
 
-$ pip install pypi_calculator
+$ pip install ecalculator-pkg-linda-oranya
 
-OR pip install git+https://github.com/linda-oranya/pypi_calculator
-
+$ pip install git+https://github.com/linda-oranya/pypi_calculator.git
+```
 
 ### Usage
 The calculator can be used for basic mathematical computation. The calculator has a memory that can reset itself to 0 and also stores previous values, except the memory is reset
