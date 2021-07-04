@@ -25,7 +25,8 @@ The calculator can be used for basic mathematical computation. The calculator ha
 
 
 Sample Code
-from calculator import Calculator
+
+``from calculator import Calculator``
 
 cal = Calculator()
 #### Addition
@@ -40,6 +41,7 @@ subtract
 ``cal.subtract(2)``
 
 8
+
 because the memory was not reset, 2 was subtracted from previous value 10
 
 Division

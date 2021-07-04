@@ -55,7 +55,7 @@ def test_root():
 
 
 def test_reset():
-    calc = Calculator()
+    calc = Calculator(10)
     calc.reset()
     assert calc.memory_val == 0
 
