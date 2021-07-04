@@ -16,6 +16,7 @@ pypi_calculator requires python3 and can be installed via PYPI
 ``` shell
 $ pip install ecalculator-pkg-linda-oranya
 ```
+
 ``` shell
 $ pip install git+https://github.com/linda-oranya/pypi_calculator.git
 ```
